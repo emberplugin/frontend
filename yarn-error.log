@@ -6077,7 +6077,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 Trace: 
-  Error: connect ETIMEDOUT 104.16.62.173:443
+  Error: connect ETIMEDOUT 104.16.60.173:443
       at Object.exports._errnoException (util.js:1020:11)
       at exports._exceptionWithHostPort (util.js:1043:20)
       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
