@@ -375,17 +375,17 @@ define('ember-app/controllers/application', ['exports', 'ember'], function (expo
           children: null
         }, {
           link: null,
-          caption: i18n.t('forms.application.sitemap.my-ember3.caption'),
-          title: i18n.t('forms.application.sitemap.my-ember3.title'),
+          caption: i18n.t('forms.application.sitemap.my-ember.caption'),
+          title: i18n.t('forms.application.sitemap.my-ember.title'),
           children: [{
             link: 'i-i-s-my-test-application-ember-type-l',
-            caption: i18n.t('forms.application.sitemap.my-ember3.i-i-s-my-test-application-ember-type-l.caption'),
-            title: i18n.t('forms.application.sitemap.my-ember3.i-i-s-my-test-application-ember-type-l.title'),
+            caption: i18n.t('forms.application.sitemap.my-ember.i-i-s-my-test-application-ember-type-l.caption'),
+            title: i18n.t('forms.application.sitemap.my-ember.i-i-s-my-test-application-ember-type-l.title'),
             children: null
           }, {
             link: 'i-i-s-my-test-application-ember-computer-l',
-            caption: i18n.t('forms.application.sitemap.my-ember3.i-i-s-my-test-application-ember-computer-l.caption'),
-            title: i18n.t('forms.application.sitemap.my-ember3.i-i-s-my-test-application-ember-computer-l.title'),
+            caption: i18n.t('forms.application.sitemap.my-ember.i-i-s-my-test-application-ember-computer-l.caption'),
+            title: i18n.t('forms.application.sitemap.my-ember.i-i-s-my-test-application-ember-computer-l.title'),
             children: null
           }]
         }]
@@ -1738,9 +1738,9 @@ define('ember-app/locales/en/translations', ['exports', 'ember', 'ember-flexberr
             caption: 'Home',
             title: ''
           },
-          'my-ember3': {
-            caption: 'my-ember3',
-            title: 'my-ember3',
+          'my-ember': {
+            caption: 'my-ember',
+            title: 'my-ember',
             'i-i-s-my-test-application-ember-type-l': {
               caption: 'i-i-s-my-test-application-ember-type-l',
               title: 'i-i-s-my-test-application-ember-type-l'
@@ -1785,7 +1785,7 @@ define('ember-app/locales/ru/forms/i-i-s-my-test-application-ember-computer-e', 
 });
 define('ember-app/locales/ru/forms/i-i-s-my-test-application-ember-computer-l', ['exports'], function (exports) {
   exports['default'] = {
-    caption: 'Computer2'
+    caption: 'Computer'
   };
 });
 define('ember-app/locales/ru/forms/i-i-s-my-test-application-ember-type-e', ['exports'], function (exports) {
@@ -1796,7 +1796,7 @@ define('ember-app/locales/ru/forms/i-i-s-my-test-application-ember-type-e', ['ex
 });
 define('ember-app/locales/ru/forms/i-i-s-my-test-application-ember-type-l', ['exports'], function (exports) {
   exports['default'] = {
-    caption: 'Type2'
+    caption: 'Type'
   };
 });
 define('ember-app/locales/ru/models/i-i-s-my-test-application-ember-computer-part', ['exports'], function (exports) {
@@ -1968,7 +1968,7 @@ define('ember-app/locales/ru/translations', ['exports', 'ember', 'ember-flexberr
       'i-i-s-my-test-application-ember-type': _emberAppLocalesRuModelsIISMyTestApplicationEmberType['default']
     },
 
-    'application-name': 'My ember3',
+    'application-name': 'My ember',
 
     forms: {
       loading: {
@@ -2008,7 +2008,7 @@ define('ember-app/locales/ru/translations', ['exports', 'ember', 'ember-flexberr
         },
 
         footer: {
-          'application-name': 'My ember3',
+          'application-name': 'My ember',
           'application-version': {
             caption: 'Версия аддона {{version}}',
             title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' + '(версия npm-пакета + хэш коммита). ' + 'Кликните, чтобы перейти на GitHub.'
@@ -2017,7 +2017,7 @@ define('ember-app/locales/ru/translations', ['exports', 'ember', 'ember-flexberr
 
         sitemap: {
           'application-name': {
-            caption: 'My ember3',
+            caption: 'My ember',
             title: 'My ember'
           },
           'application-version': {
@@ -2028,9 +2028,9 @@ define('ember-app/locales/ru/translations', ['exports', 'ember', 'ember-flexberr
             caption: 'Главная',
             title: ''
           },
-          'my-ember3': {
-            caption: 'MyEmber3',
-            title: 'MyEmber3',
+          'my-ember': {
+            caption: 'MyEmber',
+            title: 'MyEmber',
             'i-i-s-my-test-application-ember-type-l': {
               caption: 'Type',
               title: ''
@@ -2118,8 +2118,6 @@ define('ember-app/mixins/regenerated/models/i-i-s-my-test-application-ember-comp
     manufactureDate: _emberData['default'].attr('date'),
     type: _emberData['default'].attr('i-i-s-my-test-application-ember-computer-type'),
     description: _emberData['default'].attr('string'),
-    description3: _emberData['default'].attr('string'),
-    description4: _emberData['default'].attr('string'),
     createTime: _emberData['default'].attr('date'),
     creator: _emberData['default'].attr('string'),
     editTime: _emberData['default'].attr('date'),
@@ -20615,7 +20613,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-app/app")["default"].create({"name":"ember-app","backendUrl":"http://localhost:6500","backendUrls":{"root":"http://localhost:6500","api":"http://localhost:6500/odata"},"log":{"enabled":true,"storeErrorMessages":true,"storeWarnMessages":false,"storeLogMessages":true,"storeInfoMessages":false,"storeDebugMessages":false,"storeDeprecationMessages":false,"storePromiseErrors":true,"showPromiseErrors":true},"perf":{"enabled":false},"lock":{"enabled":true,"openReadOnly":true,"unlockObject":true},"useUserSettingsService":true,"offline":{"dbName":"ember-app","offlineEnabled":true,"modeSwitchOnErrorsEnabled":false,"syncDownWhenOnlineEnabled":false},"components":{"flexberryFile":{"uploadUrl":"http://localhost:6500/api/File","maxUploadFileSize":null,"uploadOnModelPreSave":true,"showUploadButton":true,"showModalDialogOnUploadError":true,"showModalDialogOnDownloadError":true}},"version":"0.0.0+93638f6f"});
+  require("ember-app/app")["default"].create({"name":"ember-app","backendUrl":"http://localhost:6500","backendUrls":{"root":"http://localhost:6500","api":"http://localhost:6500/odata"},"log":{"enabled":true,"storeErrorMessages":true,"storeWarnMessages":false,"storeLogMessages":true,"storeInfoMessages":false,"storeDebugMessages":false,"storeDeprecationMessages":false,"storePromiseErrors":true,"showPromiseErrors":true},"perf":{"enabled":false},"lock":{"enabled":true,"openReadOnly":true,"unlockObject":true},"useUserSettingsService":true,"offline":{"dbName":"ember-app","offlineEnabled":true,"modeSwitchOnErrorsEnabled":false,"syncDownWhenOnlineEnabled":false},"components":{"flexberryFile":{"uploadUrl":"http://localhost:6500/api/File","maxUploadFileSize":null,"uploadOnModelPreSave":true,"showUploadButton":true,"showModalDialogOnUploadError":true,"showModalDialogOnDownloadError":true}},"version":"0.0.0+db70392e"});
 }
 
 /* jshint ignore:end */
