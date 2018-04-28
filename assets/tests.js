@@ -214,7 +214,7 @@ define('ember-app/tests/helpers/destroy-app.jscs-test', ['exports'], function (e
 
   module('JSCS - helpers');
   test('helpers/destroy-app.js should pass jscs', function () {
-    ok(false, 'helpers/destroy-app.js should pass jscs.\nInvalid line break at helpers/destroy-app.js :\n     1 |import Ember from \'ember\';\n----------------------------------^\n     2 |\n     3 |export default function destroyApp(application) {');
+    ok(true, 'helpers/destroy-app.js should pass jscs.');
   });
 });
 define('ember-app/tests/helpers/destroy-app.jshint', ['exports'], function (exports) {
@@ -286,7 +286,7 @@ define('ember-app/tests/helpers/module-for-acceptance.jscs-test', ['exports'], f
 
   module('JSCS - helpers');
   test('helpers/module-for-acceptance.js should pass jscs', function () {
-    ok(false, 'helpers/module-for-acceptance.js should pass jscs.\nInvalid line break at helpers/module-for-acceptance.js :\n     1 |import { module } from \'qunit\';\n---------------------------------------^\n     2 |import startApp from \'../helpers/start-app\';\n     3 |import destroyApp from \'../helpers/destroy-app\';');
+    ok(true, 'helpers/module-for-acceptance.js should pass jscs.');
   });
 });
 define('ember-app/tests/helpers/module-for-acceptance.jshint', ['exports'], function (exports) {
@@ -314,7 +314,7 @@ define('ember-app/tests/helpers/resolver.jscs-test', ['exports'], function (expo
 
   module('JSCS - helpers');
   test('helpers/resolver.js should pass jscs', function () {
-    ok(false, 'helpers/resolver.js should pass jscs.\nInvalid line break at helpers/resolver.js :\n     1 |import Resolver from \'../../resolver\';\n----------------------------------------------^\n     2 |import config from \'../../config/environment\';\n     3 |');
+    ok(true, 'helpers/resolver.js should pass jscs.');
   });
 });
 define('ember-app/tests/helpers/resolver.jshint', ['exports'], function (exports) {
@@ -349,7 +349,7 @@ define('ember-app/tests/helpers/start-app.jscs-test', ['exports'], function (exp
 
   module('JSCS - helpers');
   test('helpers/start-app.js should pass jscs', function () {
-    ok(false, 'helpers/start-app.js should pass jscs.\nInvalid line break at helpers/start-app.js :\n     1 |import Ember from \'ember\';\n----------------------------------^\n     2 |import Application from \'../../app\';\n     3 |import config from \'../../config/environment\';');
+    ok(true, 'helpers/start-app.js should pass jscs.');
   });
 });
 define('ember-app/tests/helpers/start-app.jshint', ['exports'], function (exports) {
@@ -874,7 +874,7 @@ define('ember-app/tests/models/i-i-s-my-test-application-ember-computer-part.jsc
 
   module('JSCS - models');
   test('models/i-i-s-my-test-application-ember-computer-part.js should pass jscs', function () {
-    ok(false, 'models/i-i-s-my-test-application-ember-computer-part.js should pass jscs.\nInvalid line break at models/i-i-s-my-test-application-ember-computer-part.js :\n     1 |import { Model as ComputerPartMixin, defineProjections } from\n---------------------------------------------------------------------^\n     2 |  \'../mixins/regenerated/models/i-i-s-my-test-application-ember-computer-part\';\n     3 |import { Projection } from \'ember-flexberry-data\';');
+    ok(true, 'models/i-i-s-my-test-application-ember-computer-part.js should pass jscs.');
   });
 });
 define('ember-app/tests/models/i-i-s-my-test-application-ember-computer-part.jshint', ['exports'], function (exports) {
@@ -891,7 +891,7 @@ define('ember-app/tests/models/i-i-s-my-test-application-ember-computer.jscs-tes
 
   module('JSCS - models');
   test('models/i-i-s-my-test-application-ember-computer.js should pass jscs', function () {
-    ok(false, 'models/i-i-s-my-test-application-ember-computer.js should pass jscs.\nInvalid line break at models/i-i-s-my-test-application-ember-computer.js :\n     1 |import { Model as ComputerMixin, defineProjections } from\n-----------------------------------------------------------------^\n     2 |  \'../mixins/regenerated/models/i-i-s-my-test-application-ember-computer\';\n     3 |import { Projection } from \'ember-flexberry-data\';');
+    ok(true, 'models/i-i-s-my-test-application-ember-computer.js should pass jscs.');
   });
 });
 define('ember-app/tests/models/i-i-s-my-test-application-ember-computer.jshint', ['exports'], function (exports) {
@@ -908,7 +908,7 @@ define('ember-app/tests/models/i-i-s-my-test-application-ember-type.jscs-test', 
 
   module('JSCS - models');
   test('models/i-i-s-my-test-application-ember-type.js should pass jscs', function () {
-    ok(false, 'models/i-i-s-my-test-application-ember-type.js should pass jscs.\nInvalid line break at models/i-i-s-my-test-application-ember-type.js :\n     1 |import { Model as TypeMixin, defineProjections } from\n-------------------------------------------------------------^\n     2 |  \'../mixins/regenerated/models/i-i-s-my-test-application-ember-type\';\n     3 |import { Projection } from \'ember-flexberry-data\';');
+    ok(true, 'models/i-i-s-my-test-application-ember-type.js should pass jscs.');
   });
 });
 define('ember-app/tests/models/i-i-s-my-test-application-ember-type.jshint', ['exports'], function (exports) {
@@ -1129,7 +1129,7 @@ define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer-off
 
   module('JSCS - serializers');
   test('serializers/i-i-s-my-test-application-ember-computer-offline.js should pass jscs', function () {
-    ok(false, 'serializers/i-i-s-my-test-application-ember-computer-offline.js should pass jscs.\nInvalid line break at serializers/i-i-s-my-test-application-ember-computer-offline.js :\n     1 |import { OfflineSerializer as ComputerSerializer } from\n---------------------------------------------------------------^\n     2 |  \'../mixins/regenerated/serializers/i-i-s-my-test-application-ember-computer-offline\';\n     3 |import __ApplicationSerializer from \'./application-offline\';');
+    ok(true, 'serializers/i-i-s-my-test-application-ember-computer-offline.js should pass jscs.');
   });
 });
 define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer-offline.jshint', ['exports'], function (exports) {
@@ -1146,7 +1146,7 @@ define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer-par
 
   module('JSCS - serializers');
   test('serializers/i-i-s-my-test-application-ember-computer-part-offline.js should pass jscs', function () {
-    ok(false, 'serializers/i-i-s-my-test-application-ember-computer-part-offline.js should pass jscs.\nInvalid line break at serializers/i-i-s-my-test-application-ember-computer-part-offline.js :\n     1 |import { OfflineSerializer as ComputerPartSerializer } from\n-------------------------------------------------------------------^\n     2 |  \'../mixins/regenerated/serializers/i-i-s-my-test-application-ember-computer-part-offline\';\n     3 |import __ApplicationSerializer from \'./application-offline\';');
+    ok(true, 'serializers/i-i-s-my-test-application-ember-computer-part-offline.js should pass jscs.');
   });
 });
 define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer-part-offline.jshint', ['exports'], function (exports) {
@@ -1163,7 +1163,7 @@ define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer-par
 
   module('JSCS - serializers');
   test('serializers/i-i-s-my-test-application-ember-computer-part.js should pass jscs', function () {
-    ok(false, 'serializers/i-i-s-my-test-application-ember-computer-part.js should pass jscs.\nInvalid line break at serializers/i-i-s-my-test-application-ember-computer-part.js :\n     1 |import { Serializer as ComputerPartSerializer } from\n------------------------------------------------------------^\n     2 |  \'../mixins/regenerated/serializers/i-i-s-my-test-application-ember-computer-part\';\n     3 |import __ApplicationSerializer from \'./application\';');
+    ok(true, 'serializers/i-i-s-my-test-application-ember-computer-part.js should pass jscs.');
   });
 });
 define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer-part.jshint', ['exports'], function (exports) {
@@ -1180,7 +1180,7 @@ define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer.jsc
 
   module('JSCS - serializers');
   test('serializers/i-i-s-my-test-application-ember-computer.js should pass jscs', function () {
-    ok(false, 'serializers/i-i-s-my-test-application-ember-computer.js should pass jscs.\nInvalid line break at serializers/i-i-s-my-test-application-ember-computer.js :\n     1 |import { Serializer as ComputerSerializer } from\n--------------------------------------------------------^\n     2 |  \'../mixins/regenerated/serializers/i-i-s-my-test-application-ember-computer\';\n     3 |import __ApplicationSerializer from \'./application\';');
+    ok(true, 'serializers/i-i-s-my-test-application-ember-computer.js should pass jscs.');
   });
 });
 define('ember-app/tests/serializers/i-i-s-my-test-application-ember-computer.jshint', ['exports'], function (exports) {
@@ -1197,7 +1197,7 @@ define('ember-app/tests/serializers/i-i-s-my-test-application-ember-type-offline
 
   module('JSCS - serializers');
   test('serializers/i-i-s-my-test-application-ember-type-offline.js should pass jscs', function () {
-    ok(false, 'serializers/i-i-s-my-test-application-ember-type-offline.js should pass jscs.\nInvalid line break at serializers/i-i-s-my-test-application-ember-type-offline.js :\n     1 |import { OfflineSerializer as TypeSerializer } from\n-----------------------------------------------------------^\n     2 |  \'../mixins/regenerated/serializers/i-i-s-my-test-application-ember-type-offline\';\n     3 |import __ApplicationSerializer from \'./application-offline\';');
+    ok(true, 'serializers/i-i-s-my-test-application-ember-type-offline.js should pass jscs.');
   });
 });
 define('ember-app/tests/serializers/i-i-s-my-test-application-ember-type-offline.jshint', ['exports'], function (exports) {
@@ -1214,7 +1214,7 @@ define('ember-app/tests/serializers/i-i-s-my-test-application-ember-type.jscs-te
 
   module('JSCS - serializers');
   test('serializers/i-i-s-my-test-application-ember-type.js should pass jscs', function () {
-    ok(false, 'serializers/i-i-s-my-test-application-ember-type.js should pass jscs.\nInvalid line break at serializers/i-i-s-my-test-application-ember-type.js :\n     1 |import { Serializer as TypeSerializer } from\n----------------------------------------------------^\n     2 |  \'../mixins/regenerated/serializers/i-i-s-my-test-application-ember-type\';\n     3 |import __ApplicationSerializer from \'./application\';');
+    ok(true, 'serializers/i-i-s-my-test-application-ember-type.js should pass jscs.');
   });
 });
 define('ember-app/tests/serializers/i-i-s-my-test-application-ember-type.jshint', ['exports'], function (exports) {
@@ -1252,7 +1252,7 @@ define('ember-app/tests/test-helper.jscs-test', ['exports'], function (exports) 
 
   module('JSCS - .');
   test('test-helper.js should pass jscs', function () {
-    ok(false, 'test-helper.js should pass jscs.\nInvalid line break at test-helper.js :\n     1 |import resolver from \'./helpers/resolver\';\n--------------------------------------------------^\n     2 |import {\n     3 |  setResolver');
+    ok(true, 'test-helper.js should pass jscs.');
   });
 });
 define('ember-app/tests/test-helper.jshint', ['exports'], function (exports) {
